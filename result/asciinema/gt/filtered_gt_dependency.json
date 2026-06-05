@@ -1,0 +1,2174 @@
+{
+    "dependency": [
+        {
+            "src": "asciinema.api.Api.hostname",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.notifications_command",
+            "dest": "configparser.Config.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_writer.write_stdout",
+            "dest": "asciinema.async_worker.async_worker.enqueue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.Notifier.get_icon_path",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.Notifier.get_icon_path",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.Notifier.get_icon_path",
+            "dest": "os.path.realpath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.Notifier.get_icon_path",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.build_header",
+            "dest": "builtins.dict.update",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.build_header",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._write_master",
+            "dest": "os.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.auth.AuthCommand.execute",
+            "dest": "asciinema.commands.command.Command.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.auth.AuthCommand.execute",
+            "dest": "asciinema.api.Api.hostname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.auth.AuthCommand.execute",
+            "dest": "asciinema.api.Api.auth_url",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.term.get_size",
+            "dest": "subprocess.check_output",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.term.get_size",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.events.cap_relative_time",
+            "dest": "builtins.min",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.Asciicast.events",
+            "dest": "json.loads",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "select.select",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "os.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "asciinema.pty.record._set_pty_size",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "os.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "asciinema.pty.record._handle_stdin_read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "struct.unpack",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "asciinema.pty.record._handle_master_read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "<**PyList**>.remove",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._copy",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__read_install_id",
+            "dest": "os.path.isfile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__read_install_id",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__read_install_id",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__init__",
+            "dest": "configparser.ConfigParser",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__init__",
+            "dest": "configparser.ConfigParser.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__init__",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__user_token",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_asciicast",
+            "dest": "asciinema.api.Api.upload_url",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_asciicast",
+            "dest": "asciinema.api.Api._headers",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_asciicast",
+            "dest": "asciinema.api.Api._handle_error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_asciicast",
+            "dest": "json.loads",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_asciicast",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_asciicast",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_asciicast",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_asciicast",
+            "dest": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.load",
+            "dest": "asciinema.config.get_config_home",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.load",
+            "dest": "asciinema.config.Config.upgrade",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._signals",
+            "dest": "signal.signal",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._signals",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.__write_line",
+            "dest": "json.dumps",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "urllib.request.Request",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "gzip.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "urllib.parse.urlunparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "urllib.request.urlopen",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "codecs.getreader",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "asciinema.asciicast.open_url",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_url",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.maybe_str",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player.play",
+            "dest": "asciinema.player.Player._play",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player.play",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.open_from_file.__enter__",
+            "dest": "asciinema.asciicast.v2.build_from_header_and_file",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.open_from_file.__enter__",
+            "dest": "json.loads",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.upload_url",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.Notifier.is_available",
+            "dest": "shutil.which",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.raw.writer.__init__",
+            "dest": "os.stat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.raw.writer.__init__",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v1.Asciicast.stdout_events",
+            "dest": "asciinema.asciicast.v1.Asciicast.__stdout_events",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v1.Asciicast.stdout_events",
+            "dest": "asciinema.asciicast.events.to_absolute_time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.enqueue",
+            "dest": "queue.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.enqueue",
+            "dest": "multiprocessing.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_master_read",
+            "dest": "asciinema.pty.record._write_stdout",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_master_read",
+            "dest": "asciinema.asciicast.raw.writer.write_stdout",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_master_read",
+            "dest": "asciinema.recorder.async_writer.write_stdout",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_master_read",
+            "dest": "time.time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__enter__",
+            "dest": "multiprocessing.Process",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__enter__",
+            "dest": "multiprocessing.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__enter__",
+            "dest": "threading.Thread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__enter__",
+            "dest": "threading.Thread.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_notifier.perform",
+            "dest": "asciinema.notifier.Notifier.notify",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_notifier.perform",
+            "dest": "asciinema.notifier.NoopNotifier.notify",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_notifier.perform",
+            "dest": "asciinema.notifier.CustomCommandNotifier.notify",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.command.Command.print_info",
+            "dest": "asciinema.commands.command.Command.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_from_url.__exit__",
+            "dest": "asciinema.asciicast.v2.open_from_file.__exit__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_from_url.__exit__",
+            "dest": "asciinema.asciicast.v1.open_from_file.__exit__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.record_stdin",
+            "dest": "configparser.Config.getboolean",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.term.raw.__enter__",
+            "dest": "tty.setraw",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.term.raw.__enter__",
+            "dest": "tty.tcgetattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute.<lambda1>",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute.<lambda1>",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__",
+            "dest": "asciinema.__main__.main",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.record_asciicast",
+            "dest": "asciinema.recorder.record",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.CustomCommandNotifier.notify",
+            "dest": "asciinema.notifier.Notifier.get_icon_path",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.CustomCommandNotifier.notify",
+            "dest": "subprocess.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.CustomCommandNotifier.notify",
+            "dest": "os.environ.copy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.Parser.handle_starttag",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.__write_event",
+            "dest": "asciinema.asciicast.v2.writer.__write_line",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.__write_event",
+            "dest": "builtins.round",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api._user_agent",
+            "dest": "platform.python_implementation",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api._user_agent",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api._user_agent",
+            "dest": "platform.python_version",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api._user_agent",
+            "dest": "platform.platform",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.LibNotifyNotifier.args",
+            "dest": "asciinema.notifier.Notifier.get_icon_path",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api._handle_error",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.record_env",
+            "dest": "configparser.Config.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter._parse_headers",
+            "dest": "builtins.str.lower",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.command.Command.print_error",
+            "dest": "asciinema.commands.command.Command.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.record_idle_time_limit",
+            "dest": "configparser.Config.getfloat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record._tmp_path",
+            "dest": "tempfile.mkstemp",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record._tmp_path",
+            "dest": "os.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__gen_install_id",
+            "dest": "uuid.uuid4",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__gen_install_id",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.__init__",
+            "dest": "uuid.uuid4",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.__init__",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.TerminalNotifier.args",
+            "dest": "asciinema.notifier.Notifier.get_icon_path",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.play.PlayCommand.execute",
+            "dest": "asciinema.commands.command.Command.print_error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.play.PlayCommand.execute",
+            "dest": "asciinema.asciicast.open_from_url.__enter__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.play.PlayCommand.execute",
+            "dest": "asciinema.asciicast.open_from_url.__exit__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.play.PlayCommand.execute",
+            "dest": "asciinema.asciicast.Player.play",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.play.PlayCommand.execute",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__create_config_home",
+            "dest": "os.makedirs",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__create_config_home",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.command.Command.print_warning",
+            "dest": "asciinema.commands.command.Command.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api.auth_url",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.raw.writer.__enter__",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.play_idle_time_limit",
+            "dest": "configparser.Config.getfloat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.AppleScriptNotifier.args",
+            "dest": "builtins.str.replace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.AppleScriptNotifier.args",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.upload.UploadCommand.execute",
+            "dest": "asciinema.commands.command.Command.print_warning",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.upload.UploadCommand.execute",
+            "dest": "asciinema.commands.command.Command.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.upload.UploadCommand.execute",
+            "dest": "asciinema.commands.command.Command.print_error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.upload.UploadCommand.execute",
+            "dest": "asciinema.api.Api.upload_asciicast",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.upload.UploadCommand.execute",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.upload.UploadCommand.execute",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.upload.UploadCommand.execute",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v1.Asciicast.v2_header",
+            "dest": "builtins.dict.items",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "urllib.request.Request",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.encode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "asciinema.urllib_http_adapter.URLLibHttpAdapter._parse_headers",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "base64.encodebytes",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "urllib.request.urlopen",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "builtins.dict.copy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "builtins.str.encode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "builtins.str.decode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.URLLibHttpAdapter.post",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "asciinema.term.read_blocking",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "asciinema.asciicast.events.adjust_speed",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "time.time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "asciinema.asciicast.events.to_relative_time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "asciinema.asciicast.events.cap_relative_time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "asciinema.asciicast.v2.stdout_events",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "asciinema.asciicast.v1.stdout_events",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "sys.stdout.flush",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "sys.stdout.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.player.Player._play",
+            "dest": "asciinema.asciicast.events.to_absolute_time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__init__",
+            "dest": "multiprocessing.Queue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__init__",
+            "dest": "queue.Queue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.positive_float",
+            "dest": "argparse.ArgumentTypeError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.positive_float",
+            "dest": "builtins.float",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._set_pty_size",
+            "dest": "array.array",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._set_pty_size",
+            "dest": "fcntl.ioctl",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._set_pty_size",
+            "dest": "os.isatty",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.__init__",
+            "dest": "asciinema.notifier.get_notifier",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.write_stdin",
+            "dest": "asciinema.asciicast.v2.writer.__write_event",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.write_stdin",
+            "dest": "builtins.str.encode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.write_stdin",
+            "dest": "builtins.str.decode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.write_stdin",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.Asciicast.__init__",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_writer.write_stdin",
+            "dest": "asciinema.async_worker.async_worker.enqueue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v1.open_from_file.__enter__",
+            "dest": "json.loads",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.api.Api._headers",
+            "dest": "asciinema.api.Api._user_agent",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._notify",
+            "dest": "asciinema.notifier.Notifier.notify",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_stdin_read",
+            "dest": "asciinema.pty.record._write_master",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_stdin_read",
+            "dest": "time.time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_stdin_read",
+            "dest": "asciinema.pty.record._notify",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_stdin_read",
+            "dest": "asciinema.asciicast.raw.writer.write_stdin",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._handle_stdin_read",
+            "dest": "asciinema.recorder.async_writer.write_stdin",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_notifier.notify",
+            "dest": "asciinema.async_worker.async_worker.enqueue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.record_yes",
+            "dest": "configparser.Config.getboolean",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__exit__",
+            "dest": "queue.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__exit__",
+            "dest": "multithreading.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__exit__",
+            "dest": "threading.Thread.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.__exit__",
+            "dest": "multiprocessing.Process.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_from_url.__enter__",
+            "dest": "asciinema.asciicast.open_url",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_from_url.__enter__",
+            "dest": "asciinema.asciicast.v1.open_from_file.__enter__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_from_url.__enter__",
+            "dest": "asciinema.asciicast.v2.open_from_file.__enter__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.open_from_url.__enter__",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record._write_stdout",
+            "dest": "os.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.get_config_home",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.get_config_home",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.get_config_home",
+            "dest": "os.path.isfile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.get_config_home",
+            "dest": "builtins.Exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.record_command",
+            "dest": "configparser.Config.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.write_stdout",
+            "dest": "asciinema.asciicast.v2.writer.__write_event",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.write_stdout",
+            "dest": "builtins.str.encode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.write_stdout",
+            "dest": "builtins.str.decode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.write_stdout",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.term.read_blocking",
+            "dest": "select.select",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.term.read_blocking",
+            "dest": "os.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.get_notifier",
+            "dest": "asciinema.notifier.Notifier.is_available",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "argparse.ArgumentParser",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "argparse.ArgumentParser.add_argument",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "argparse.ArgumentParser.add_subparsers",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "argparse.ArgumentParser.set_defaults",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "argparse.ArgumentParser.parse_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "argparse.ArgumentParser.print_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "sys.stderr.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "asciinema.config.load",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "asciinema.commands.auth.AuthCommand.execute",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "asciinema.commands.record.RecordCommand.execute",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "asciinema.commands.play.PlayCommand.execute",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "asciinema.commands.cat.CatCommand.execute",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "asciinema.commands.upload.UploadCommand.execute",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "asciinema.__main__.maybe_str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "sys.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "locale.nl_langinfo",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.__main__.main",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.record_quiet",
+            "dest": "configparser.Config.getboolean",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.term.raw.__exit__",
+            "dest": "tty.tcsetattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema",
+            "dest": "builtins.ImportError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.cat.CatCommand.execute",
+            "dest": "sys.stdout.flush",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.cat.CatCommand.execute",
+            "dest": "asciinema.commands.command.Command.print_error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.cat.CatCommand.execute",
+            "dest": "sys.stdout.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.cat.CatCommand.execute",
+            "dest": "asciinema.asciicast.open_from_url.__enter__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.cat.CatCommand.execute",
+            "dest": "asciinema.asciicast.open_from_url.__exit__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.cat.CatCommand.execute",
+            "dest": "asciinema.asciicast.Asciicast.stdout_events",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.cat.CatCommand.execute",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.u",
+            "dest": "builtins.str.decode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.u",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.command.Command.print",
+            "dest": "asciinema.commands.command.Command.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__api_token",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_writer.run",
+            "dest": "asciinema.async_worker.async_worker.write_stdout",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_writer.run",
+            "dest": "asciinema.async_worker.async_worker.write_stdin",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.async_writer.run",
+            "dest": "builtins.iter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.get_duration",
+            "dest": "asciinema.asciicast.v2.open_from_file.__enter__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.get_duration",
+            "dest": "asciinema.asciicast.v2.open_from_file.__exit__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.get_duration",
+            "dest": "asciinema.asciicast.v2.Asciicast.stdout_events",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.get_duration",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "asciinema.recorder.record",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "asciinema.asciicast.v2.get_duration",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "time.time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "os.environ.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "asciinema.asciicast.v2.get_duration",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "asciinema.term.get_size",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "os.stat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "os.environ.copy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "builtins.dict.update",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.recorder.record",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.install_id",
+            "dest": "asciinema.config.Config.__read_install_id",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.install_id",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.async_worker.async_worker.run",
+            "dest": "builtins.iter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.play_speed",
+            "dest": "configparser.Config.getfloat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.api_url",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.__enter__",
+            "dest": "asciinema.asciicast.v2.writer.__write_line",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.__enter__",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.Asciicast.stdout_events",
+            "dest": "asciinema.asciicast.v2.Asciicast.events",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "os.access",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.commands.command.Command.print_info",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.commands.command.Command.print_error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.recorder.Recorder.record",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.api.Api.upload_asciicast",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.api.Api.hostname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.recorder.record",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.commands.command.Command.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "sys.stdin.readline",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "os.stat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "os.remove",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.commands.record._tmp_path",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.commands.command.Command.print_warning",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "builtins.filter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "builtins.map",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.commands.record.RecordCommand.execute",
+            "dest": "asciinema.commands.record.RecordCommand.execute.<lambda1>",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter",
+            "dest": "codecs.getencoder",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter",
+            "dest": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.u",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v1.Asciicast.events",
+            "dest": "asciinema.asciicast.v1.Asciicast.stdout_events",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__save_install_id",
+            "dest": "asciinema.config.Config.__create_config_home",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.__save_install_id",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "signal.set_wakeup_fd",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "os.waitpid",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "time.time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "fcntl.fcntl",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "os.execvpe",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "asciinema.pty.record._set_pty_size",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "pty.fork",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "asciinema.pty.record._signals",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "asciinema.pty.record._copy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "os.pipe",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "asciinema.pty.record.<lambda1>",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.pty.record",
+            "dest": "builtins.map",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.__init__",
+            "dest": "codecs.getincrementaldecoder",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.asciicast.v2.writer.__init__",
+            "dest": "asciinema.asciicast.v2.build_header",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.notifier.Notifier.notify",
+            "dest": "subprocess.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.notifications_enabled",
+            "dest": "configparser.Config.getboolean",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.encode",
+            "dest": "io.BytesIO",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.encode",
+            "dest": "asciinema.urllib_http_adapter.MultipartFormdataEncoder.iter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "asciinema.config.Config.__user_token",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "asciinema.config.Config.__save_install_id",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "asciinema.config.Config.__gen_install_id",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "asciinema.config.Config.__api_token",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "asciinema.config.Config.install_id",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "os.remove",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "builtins.dict.items",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "asciinema.config.Config.upgrade",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        }
+    ]
+}

@@ -1,0 +1,2461 @@
+{
+    "dependency": [
+        {
+            "src": "integration.connection.Connection_.sudo.sudo_command",
+            "dest": "integration.connection.skip_outside_travis",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.sudo.sudo_command",
+            "dest": "fabric.connection.Connection.sudo",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.sudo.sudo_command",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.group.Group_.excepted_command",
+            "dest": "fabric.group.ThreadingGroup.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.group.Group_.excepted_command",
+            "dest": "builtins.dict.values",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.group.Group_.excepted_command",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.set_runtime_ssh_path",
+            "dest": "invoke.config.Config._set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.base_case",
+            "dest": "integration.transfer._support",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.base_case",
+            "dest": "py.path.local",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.base_case",
+            "dest": "fabric.connection.Connection.sftp",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.base_case",
+            "dest": "fabric.connection.Connection.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.base_case",
+            "dest": "<**PyFile**>.dirpath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.base_case",
+            "dest": "<**PyFile**>.check",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.base_case",
+            "dest": "<**PyFile**>.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.base_case",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.runners.Result.__init__",
+            "dest": "invoke.InvokeResult",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.runners.Result.__init__",
+            "dest": "builtins.dictpop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.runners.Result.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.Group.__init__",
+            "dest": "<**PyList**>.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.Group.__init__",
+            "dest": "builtins.map",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.GroupResult._bifurcate",
+            "dest": "builtins.dict.items",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.GroupResult._bifurcate",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.GroupResult.__init__",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.GroupResult.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.file_like_objects",
+            "dest": "io.BytesIO",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.file_like_objects",
+            "dest": "fabric.connection.Connection.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.file_like_objects",
+            "dest": "io.BytesIO.getvalue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.GroupResult.succeeded",
+            "dest": "fabric.group.GroupResult._bifurcate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.large_remote_commands_finish_cleanly",
+            "dest": "fabric.connection.Connection.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.large_remote_commands_finish_cleanly",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.large_remote_commands_finish_cleanly",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.large_remote_commands_finish_cleanly",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.large_remote_commands_finish_cleanly",
+            "dest": "builtins.str.splitlines",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.derive_shorthand",
+            "dest": "builtins.str.rstrip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.derive_shorthand",
+            "dest": "<**PyList**>.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.derive_shorthand",
+            "dest": "builtins.str.count",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.derive_shorthand",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "fabric.transfer.Transfer.sftp",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "os.path.abspath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "posixpath.basename",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "os.chmod",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "posixpath.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "stat.S_IMODE",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.get",
+            "dest": "builtins.callable",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "pytest.skip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "invoke.vendor.six.moves.queue.Queue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "invoke.vendor.six.moves.queue.empty",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "invoke.vendor.six.moves.zip_longest",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "codecs.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "invoke.util.ExceptionHandlingThread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "invoke.util.ExceptionHandlingThread.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "invoke.util.ExceptionHandlingThread.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "builtins.enumerate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "builtins.max",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.manual_threading_works_okay",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel.__init__",
+            "dest": "invoke.exceptions.ExceptionHandlingThread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.is_remote_dir",
+            "dest": "stat.S_ISDIR",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.opens",
+            "dest": "fabric.connection.Connection.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.opens",
+            "dest": "fabric.connection.Connection.create_session",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.opens",
+            "dest": "fabric.connection.Connection.forward_local",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.opens",
+            "dest": "fabric.connection.Connection.forward_remote",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.opens",
+            "dest": "fabric.connection.Connection.sftp",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.opens",
+            "dest": "fabric.connection.Connection.sudo",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_remote",
+            "dest": "invoke.exceptions.ExceptionHandlingThread.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_remote",
+            "dest": "threading.Event.set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._clone_init_kwargs",
+            "dest": "paramiko.config.SSHConfig",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._clone_init_kwargs",
+            "dest": "copy.deepcopy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._clone_init_kwargs",
+            "dest": "invoke.config.Config._clone_init_kwargs",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._clone_init_kwargs",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._clone_init_kwargs",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.mode_preservation",
+            "dest": "stat.S_IMODE",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.mode_preservation",
+            "dest": "<**PyFile**>.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.mode_preservation",
+            "dest": "<**PyFile**>.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.mode_preservation",
+            "dest": "<**PyFile**>.chmod",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.mode_preservation",
+            "dest": "<**PyFile**>.stat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.mode_preservation",
+            "dest": "fabric.connection.Connection.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.mode_preservation",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.GroupResult.failed",
+            "dest": "fabric.group.GroupResult._bifurcate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "tasks.publish",
+            "dest": "functools.partial",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "tasks.publish",
+            "dest": "invocations.util.tmpdir",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "tasks.publish",
+            "dest": "invocations.packaging.release.upload",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.docs.conf",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.docs.conf",
+            "dest": "sys.path.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.docs.conf",
+            "dest": "os.path.abspath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.docs.conf",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__lt__",
+            "dest": "fabric.connection.Connection._identity",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.runners.Remote.start",
+            "dest": "fabric.connection.Connetion.create_session",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.runners.Remote.start",
+            "dest": "invoke.pty_size",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__eq__",
+            "dest": "fabric.connection.Connection._identity",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__eq__",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__hash__",
+            "dest": "fabric.connection.Connection._identity",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__hash__",
+            "dest": "builtins.hash",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.global_defaults",
+            "dest": "invoke.config.merge_dicts",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.global_defaults",
+            "dest": "fabric.util.get_local_user",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.global_defaults",
+            "dest": "invoke.config.Config.global_defaults",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.load_collection",
+            "dest": "invoke.Collection",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.load_collection",
+            "dest": "fabric.main.Fab._remainder_only",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.load_collection",
+            "dest": "invoke.Program.load_collection",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.load_collection",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "invoke.exceptions.ThreadException",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "invoke.util.ExceptionHandlingThread.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "select.select",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "socket.socket",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "socket.Socket.setsockopt",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "socket.Socket.setblocking",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "socket.Socket.bind",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "socket.Socket.listen",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "socket.Socket.accept",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "socket.Socket.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "threading.Event.is_set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "threading.Event",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "threading.Event.set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "threading.Event.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "time.sleep",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.TunnelManager._run",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.setup",
+            "dest": "integration.transfer._support",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.get_gateway",
+            "dest": "fabric.connection.Connection.derive_shorthand",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.get_gateway",
+            "dest": "builtins.reversed",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.get_gateway",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.sftp",
+            "dest": "paramiko.client.SSHClient.open_sftp",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "config.Config",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "paramiko.client.AutoAddPolicy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "fabric.connection.Connection.get_gateway",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "paramiko.client.SSHClient",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "paramiko.client.SSHClient.set_missing_host_key_policy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "fabric.config.Config.clone",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "fabric.connection.Connection.resolve_connect_kwargs",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "fabric.connection.Connection.derive_shorthand",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "invoke.Context",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "invoke.Context._set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "paramiko.config.SSHConfig.lookup",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "builtins.dict.setdefault",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "builtins.dict.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.run.simple_command_on_host",
+            "dest": "fabric.connection.Connection.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.expand_calls",
+            "dest": "fabric.executor.FabExecutor.parameterize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.expand_calls",
+            "dest": "fabric.executor.FabExecutor.expand_calls",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.expand_calls",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.expand_calls",
+            "dest": "invoke.Call",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.expand_calls",
+            "dest": "invoke.Task",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.expand_calls",
+            "dest": "<**PyList**>.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.expand_calls",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.expand_calls",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "invoke.vendor.six.moves.queue.Queue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "six.moves.queue.Queue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "invoke.vendor.six.moves.queue.Queue.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "invoke.util.ExceptionHandlingThread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "invoke.util.ExceptionHandlingThread.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "invoke.util.ExceptionHandlingThread.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "invoke.util.ExceptionHandlingThreat.exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.ThreadingGroup.run",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.ssh_connections.close_method_closes_connection",
+            "dest": "integration.connection.Connection_.ssh_connections.open_method_generates_real_connection",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.ssh_connections.close_method_closes_connection",
+            "dest": "fabric.connection.Connection.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "os.path.basename",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "stat.S_IMODE",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "os.path.abspath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "util.debug",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "os.stat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "posixpath.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "fabric.transfer.Transfer.is_remote_dir",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "builtins.callable",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "builtins.str.tell",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.put",
+            "dest": "builtins.str.seek",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.sudo.mixed_sudo_and_normal_commands",
+            "dest": "integration.connection.skip_outside_travis",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.sudo.mixed_sudo_and_normal_commands",
+            "dest": "fabric.connection.Connection.sudo",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.sudo.mixed_sudo_and_normal_commands",
+            "dest": "fabric.connection.Connection.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.sudo.mixed_sudo_and_normal_commands",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "tasks",
+            "dest": "invoke.task",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "tasks",
+            "dest": "invoke.Collection",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.www.conf",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.www.conf",
+            "dest": "sys.path.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.www.conf",
+            "dest": "os.path.abspath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.www.conf",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.create_session",
+            "dest": "paramiko.agent.AgentRequestHandler",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.transfer.Transfer.sftp",
+            "dest": "fabric.connection.Connection.sftp",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__repr__",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__repr__",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__repr__",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__repr__",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.ConnectionCall.make_context",
+            "dest": "fabric.connection.Connection",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel.read_and_write",
+            "dest": "socket.Socket.recv",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel.read_and_write",
+            "dest": "socket.Socket.sendall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel.read_and_write",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer._support",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer._support",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel._run",
+            "dest": "fabric.tunnels.Tunnel.read_and_write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel._run",
+            "dest": "threading.Event.is_set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel._run",
+            "dest": "select.select",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.tunnels.Tunnel._run",
+            "dest": "socket.Socket.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.create_config",
+            "dest": "fabric.config.Config.load_base_conf_files",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.create_config",
+            "dest": "fabric.config.Config.merga",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency.concurrency.connections_objects_do_not_share_connection_state",
+            "dest": "socket.Socket.getsockname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.ssh_connections.open_method_generates_real_connection",
+            "dest": "fabric.connection.Connection.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.file_like_objects",
+            "dest": "io.BytesIO",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.file_like_objects",
+            "dest": "io.BytesIO.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.file_like_objects",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.file_like_objects",
+            "dest": "fabric.connection.Connection.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.file_like_objects",
+            "dest": "<**PyFile**>.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.put.setup",
+            "dest": "py.path.local.mkdtemp",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.local",
+            "dest": "invoke.Context.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.local",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.put",
+            "dest": "fabric.transfer.Transfer.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection",
+            "dest": "fabric.connection.opens",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection",
+            "dest": "contextlib.contextmanager",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.skip_outside_travis",
+            "dest": "pytest.skip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.skip_outside_travis",
+            "dest": "os.environ.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection",
+            "dest": "invoke.vendor.decorator.decorator",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection",
+            "dest": "decorator.decorator",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.util.get_local_user",
+            "dest": "getpass.getuser",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.util.get_local_user",
+            "dest": "win32api.GetUserName",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.SerialGroup.run",
+            "dest": "fabric.group.SerialGroup.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.group.Group_.failed_command",
+            "dest": "fabric.group.ThreadingGroup.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.group.Group_.failed_command",
+            "dest": "builtins.dict.values",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.mixed_use_of_local_and_run",
+            "dest": "fabric.connection.Connection.local",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.mixed_use_of_local_and_run",
+            "dest": "fabric.connection.Connection.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.shared_conf",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.shared_conf",
+            "dest": "os.path.abspath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.shared_conf",
+            "dest": "os.environ.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.shared_conf",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.shared_conf",
+            "dest": "alabaster.get_path",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sites.shared_conf",
+            "dest": "datetime.datetime.now",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.sudo.setup",
+            "dest": "config.Config",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency._worker",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency._worker",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency._worker",
+            "dest": "builtins.str.splitlines",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.concurrency._worker",
+            "dest": "queue.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.group.Group.from_connections",
+            "dest": "<**PyList**>.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.no_tasks_given",
+            "dest": "invoke.Program.no_tasks_given",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.no_tasks_given",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_local",
+            "dest": "invoke.exceptions.ExceptionHandlingThread.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_local",
+            "dest": "invoke.exceptions.ExceptionHandlingThread.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_local",
+            "dest": "invoke.exceptions.ExceptionHandlingThread.exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_local",
+            "dest": "invoke.exceptions.ThreadException",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_local",
+            "dest": "threading.Event",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_local",
+            "dest": "threading.Event.set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.util",
+            "dest": "logging.getLogger",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.util",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.util",
+            "dest": "builtins.globals",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.core_args",
+            "dest": "invoke.Argument",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.core_args",
+            "dest": "invoke.Program.core_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.core_args",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_remote.callback",
+            "dest": "socket.socket",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_remote.callback",
+            "dest": "threading.Event",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_remote.callback",
+            "dest": "invoke.exceptions.ExceptionHandlingThread.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.forward_remote.callback",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "fabric.connection.Connection.open_gateway",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "fabric.connection.Connection.is_connected",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "paramiko.client.SSHClient.connect",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "paramiko.client.SSHClient.get_transport",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.update_config",
+            "dest": "getpass.getpass",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.update_config",
+            "dest": "invoke.Program.update_config",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.update_config",
+            "dest": "fabric.config.Config.set_runtime_ssh_path",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.update_config",
+            "dest": "fabric.config.Config.load_ssh_config",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.update_config",
+            "dest": "fabric.config.Config.merge",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.update_config",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_file",
+            "dest": "os.path.isfile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_file",
+            "dest": "fabric.util.debug",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_file",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_file",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_file",
+            "dest": "builtins.IOError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_file",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_file",
+            "dest": "paramiko.config.SSHConfig.parse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.__init__",
+            "dest": "fabric.config.Config.load_ssh_config",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.__init__",
+            "dest": "fabric.config.Config.set_runtime_ssh_path",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.__init__",
+            "dest": "paramiko.config.SSHConfig",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.__init__",
+            "dest": "builtins.dict.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.__init__",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.__init__",
+            "dest": "invoke.config.Config._set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.__init__",
+            "dest": "invoke.config.Config",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.mode_preservation",
+            "dest": "stat.S_IMODE",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.mode_preservation",
+            "dest": "<**PyFile**>.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.mode_preservation",
+            "dest": "<**PyFile**>.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.mode_preservation",
+            "dest": "<**PyFile**>.cmod",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.mode_preservation",
+            "dest": "<**PyFile**>.stat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.mode_preservation",
+            "dest": "fabric.connection.Connection.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.mode_preservation",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.load_ssh_config",
+            "dest": "fabric.config.Config._load_ssh_files",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.print_version",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main.Fab.print_version",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.run",
+            "dest": "invoke.Context._run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "tasks.integration",
+            "dest": "invocations.pytest.integration",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.close",
+            "dest": "paramiko.client.SSHClient.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.close",
+            "dest": "paramiko.agent.AgentRequestHandler.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_files",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_files",
+            "dest": "builtins.IOError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_files",
+            "dest": "fabric.config.Config._load_ssh_file",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config._load_ssh_files",
+            "dest": "os.path.expanduser",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.base_case",
+            "dest": "fabric.connection.Connection.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.base_case",
+            "dest": "<**PyFile**>.check",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.base_case",
+            "dest": "<**PyFile**>.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.transfer.Transfer_.get.base_case",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.get",
+            "dest": "fabric.transfer.Transfer.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.clone",
+            "dest": "fabric.config.Config.load_ssh_config",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.clone",
+            "dest": "invoke.config.Config.clone",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.clone",
+            "dest": "builtins.dict.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.clone",
+            "dest": "builtins.dict.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.clone",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.clone",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.config.Config.clone",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open_gateway",
+            "dest": "six.StringIO",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open_gateway",
+            "dest": "paramiko.proxy.ProxyCommand",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open_gateway",
+            "dest": "paramiko.config.SSHConfig",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open_gateway",
+            "dest": "invoke.vendor.six.StringIO",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open_gateway",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open_gateway",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.open_gateway",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.local.wraps_invoke_run",
+            "dest": "fabric.connection.Connection.local",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.group.Group_.simple_command",
+            "dest": "fabric.group.ThreadingGroup.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.group.Group_.simple_command",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.group.Group_.simple_command",
+            "dest": "builtins.dict.values",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.run.simple_command_with_pty",
+            "dest": "fabric.connection.Connection.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.run.simple_command_with_pty",
+            "dest": "invoke.pty_size",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.run.simple_command_with_pty",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.run.simple_command_with_pty",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.run.simple_command_with_pty",
+            "dest": "builtins.tuple",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.run.simple_command_with_pty",
+            "dest": "builtins.map",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "integration.connection.Connection_.run.simple_command_with_pty",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.main",
+            "dest": "fabric.main.make_program",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.parameterize",
+            "dest": "fabric.util.debug",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.parameterize",
+            "dest": "invoke.Call.clone",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.executor.FabExecutor.parameterize",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.sudo",
+            "dest": "invoke.Context._sudo",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.runners.Remote.stop",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric.connection.Connection.__exit__",
+            "dest": "fabric.connection.Connection.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric._version",
+            "dest": "builtins.map",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric._version",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "fabric._version",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        }
+    ]
+}

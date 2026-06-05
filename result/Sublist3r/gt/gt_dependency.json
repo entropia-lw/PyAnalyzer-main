@@ -1,0 +1,2643 @@
+{
+    "dependency": [
+        {
+            "src": "sublist3r.YahooEnum.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.subdomain_sorting_key",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.get_ns",
+            "dest": "queue.Queue.get_nowait",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.get_ns",
+            "dest": "queue.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "urlparse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "builtins.str.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.extract_domains",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.print_",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r",
+            "dest": "colorama.init",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r",
+            "dest": "sublist3r.interactive",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r",
+            "dest": "win_unicode_console.enable",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r",
+            "dest": "sys.platform.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r",
+            "dest": "requests.packages.urllib3.disable_warnings",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.__init__",
+            "dest": "threading.Lock",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "sublist3r.BaiduEnum.findsubs",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "urlparse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "builtins.str.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.get_response",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.error",
+            "dest": "sys.stderr.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.error",
+            "dest": "sys.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.error",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.extract_domains",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.extract_domains",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.extract_domains",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.extract_domains",
+            "dest": "builtins.set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.extract_domains",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.should_sleep",
+            "dest": "random.randint",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.should_sleep",
+            "dest": "time.sleep",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_hosts",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_hosts",
+            "dest": "builtins.str.rstrip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_hosts",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_hosts",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.extract_domains",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBaseThreaded.run",
+            "dest": "sublist3r.enumratorBase.enumerate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBaseThreaded.run",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.generate_query",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.generate_query",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.get_ns_blocking",
+            "dest": "subbrute.subbrute.trace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.get_ns_blocking",
+            "dest": "queue.Queue.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.get_ns_blocking",
+            "dest": "queue.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.req",
+            "dest": "sublist3r.enumratorBase.get_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.req",
+            "dest": "requests.Session.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "urlparse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "builtins.str.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BingEnum.extract_domains",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.parse_args",
+            "dest": "argparse.ArgumentParser",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.parse_args",
+            "dest": "argparse.add_argument",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.parse_args",
+            "dest": "argparse.parse_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.check_response_errors",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.check_response_errors",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.extract_domains",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.extract_domains",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.extract_domains",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.__init__",
+            "dest": "subbrute.subbrute.signal_init",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.__init__",
+            "dest": "dns.resolver.Resolver",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.__init__",
+            "dest": "threading.Lock",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.findsubs",
+            "dest": "collections.Counter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.findsubs",
+            "dest": "collections.Counter.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.findsubs",
+            "dest": "builtins.max",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "sublist3r.enumratorBase.check_max_pages",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "sublist3r.enumratorBase.should_sleep",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "sublist3r.enumratorBase.extract_domains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "sublist3r.enumratorBase.generate_query",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "sublist3r.enumratorBase.check_max_subdomains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "sublist3r.enumratorBase.send_req",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "sublist3r.enumratorBase.get_page",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "sublist3r.enumratorBase.check_response_errors",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.enumerate",
+            "dest": "<**PyList**>.count",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.generate_query",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.generate_query",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.extract_domains",
+            "dest": "json.loads",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.trace",
+            "dest": "sys.stderr.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.trace",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.enumerate",
+            "dest": "sublist3r.CrtSearch.req",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.enumerate",
+            "dest": "sublist3r.CrtSearch.extract_domains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.CrtSearch.enumerate",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.extract_domains",
+            "dest": "json.loads",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.extract_domains",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.should_sleep",
+            "dest": "time.sleep",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.send_req",
+            "dest": "sublist3r.enumratorBase.get_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.send_req",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.send_req",
+            "dest": "requests.Session.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.run",
+            "dest": "threading.Thread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.run",
+            "dest": "threading.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.run",
+            "dest": "sys.stderr.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.run",
+            "dest": "random.shuffle",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.run",
+            "dest": "subbrute.subbrute.verify_nameservers.verify",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.run",
+            "dest": "queue.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.parser_error",
+            "dest": "sys.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.parser_error",
+            "dest": "sublist3r.banner",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.parser_error",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.__init__",
+            "dest": "threading.Lock",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.__init__",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.req",
+            "dest": "sublist3r.enumratorBase.get_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.req",
+            "dest": "requests.Session.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.enumerate",
+            "dest": "sublist3r.PassiveDNS.extract_domains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.enumerate",
+            "dest": "sublist3r.PassiveDNS.req",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.enumerate",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.req",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.req",
+            "dest": "sublist3r.enumratorBase.get_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.req",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.req",
+            "dest": "requests.Session.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.req",
+            "dest": "requests.Session.post",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.find_wildcards",
+            "dest": "uuid.uuid4",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.find_wildcards",
+            "dest": "subbrute.subbrute.trace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.find_wildcards",
+            "dest": "dns.resolver.Resolver.query",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.find_wildcards",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.find_wildcards",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.find_wildcards",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.req",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.req",
+            "dest": "requests.Session.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.__init__",
+            "dest": "threading.BoundedSemaphore",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "subbrute.subbrute.extract_hosts",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "subbrute.subbrute.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "subbrute.subbrute.trace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "subbrute.subbrute.lookup.get_ns_blocking",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "subbrute.subbrute.lookup.get_ns",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "dns.resolver.Resolver.query",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "queue.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.check",
+            "dest": "builtins.str.rstrip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.check_open",
+            "dest": "subbrute.subbrute.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.check_open",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.check_open",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.check_open",
+            "dest": "<**PyFile**>.readlines",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "multiprocessing.freeze_support",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "sys.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "subbrute.subbrute.check_open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "optparse.OptionParser",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "optparse.OptionParser.add_option",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "optparse.OptionParser.parse_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "optparse.OptionParser.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "os.path.realpath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "sys.platform.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "subbrute.subbrute.extract_subdomains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "subbrute.subbrute.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "subbrute.subbrute.print_target",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "subbrute.subbrute.lookup.check",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "subbrute.subbrute.trace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "sys.stdout.flush",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "subbrute.subbrute.lookup.get_ns_blocking",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "queue.Queue.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "queue.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.lookup.run",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "urlparse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "builtins.str.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.YahooEnum.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.add_nameserver",
+            "dest": "subbrute.subbrute.trace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.add_nameserver",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.add_nameserver",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.get_csrftoken",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.get_csrftoken",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.get_csrftoken",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.send_req",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.send_req",
+            "dest": "sublist3r.enumratorBase.get_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.send_req",
+            "dest": "requests.Session.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.__init__",
+            "dest": "threading.Lock",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.PassiveDNS.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.killproc",
+            "dest": "os.getpid",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.killproc",
+            "dest": "os.kill",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.killproc",
+            "dest": "builtins.str.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.killproc",
+            "dest": "ctypes.windll.kernel32.OpenProcess",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.killproc",
+            "dest": "ctypes.windll.kernel32.TerminateProcess",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.verify",
+            "dest": "subbrute.subbrute.verify_nameservers.add_nameserver",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.verify",
+            "dest": "subbrute.subbrute.trace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.verify",
+            "dest": "subbrute.subbrute.verify_nameservers.find_wildcards",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.verify",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.verify",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.write_file",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.write_file",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.write_file",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.write_file",
+            "dest": "<**PyFile**>.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.print_target",
+            "dest": "subbrute.subbrute.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.print_target",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.print_target",
+            "dest": "builtins.set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.print_target",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "urlparse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.print_banner",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.enumerate",
+            "dest": "sublist3r.NetcraftEnum.extract_domains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.enumerate",
+            "dest": "sublist3r.enumratorBase.get_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.enumerate",
+            "dest": "sublist3r.NetcraftEnum.req",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.enumerate",
+            "dest": "sublist3r.NetcraftEnum.get_next",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.enumerate",
+            "dest": "sublist3r.NetcraftEnum.get_cookies",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.enumerate",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.__init__",
+            "dest": "urlparse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.__init__",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.__init__",
+            "dest": "sublist3r.enumratorBase.print_banner",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.enumratorBase.__init__",
+            "dest": "requests.Session",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.generate_query",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.BaiduEnum.generate_query",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.check_host",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.check_host",
+            "dest": "dns.resolver.Resolver",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.check_host",
+            "dest": "dns.resolver.Resolver.query",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.check_host",
+            "dest": "threading.BoundedSemaphore.acquire",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.check_host",
+            "dest": "threading.BoundedSemaphore.release",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.check_host",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "urlparse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "builtins.str.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.extract_domains",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.generate_query",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.AskEnum.generate_query",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.interactive",
+            "dest": "sublist3r.main",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.interactive",
+            "dest": "sublist3r.parse_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.interactive",
+            "dest": "sublist3r.no_color",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.interactive",
+            "dest": "sublist3r.banner",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.create_cookies",
+            "dest": "hashlib.sha1",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.create_cookies",
+            "dest": "urllib.unquote",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.create_cookies",
+            "dest": "urllib.parse.unquote",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.create_cookies",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.create_cookies",
+            "dest": "builtins.str.find",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.create_cookies",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.create_cookies",
+            "dest": "builtins.str.encode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.create_cookies",
+            "dest": "builtins.str.hexdigest",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.req",
+            "dest": "sublist3r.enumratorBase.get_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.req",
+            "dest": "requests.Session.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.__init__",
+            "dest": "threading.Lock",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.enumerate",
+            "dest": "sublist3r.ThreatCrowd.req",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.enumerate",
+            "dest": "sublist3r.ThreatCrowd.extract_domains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.ThreatCrowd.enumerate",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.get_cookies",
+            "dest": "sublist3r.NetcraftEnum.create_cookies",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "socket.socket",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "socket.socket.settimeout",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "socket.socket.connect_ex",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "socket.socket.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "threading.BoundedSemaphore.acquire",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "threading.BoundedSemaphore.release",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.port_scan",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.signal_init",
+            "dest": "signal.signal",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.portscan.__init__",
+            "dest": "threading.BoundedSemaphore",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.banner",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.__init__",
+            "dest": "subbrute.subbrute.signal_init",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.__init__",
+            "dest": "dns.resolver.Resolver",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.verify_nameservers.__init__",
+            "dest": "dns.resolver.Resolver.query",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "re.match",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "sublist3r.write_file",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "multiprocessing.Manager",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "multiprocessing.Manager.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "os.path.realpath",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "urlparse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "urllib.parse.urlparse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "sublist3r.portscan.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "subbrute.subbrute.print_target",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "builtins.set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "builtins.sorted",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "builtins.str.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "builtins.str.lower",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "<**PyList**>.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "multiprocessing.Process.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.main",
+            "dest": "multiprocessing.Process.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.get_next",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.get_next",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.NetcraftEnum.get_next",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "subbrute.subbrute.killproc",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "subbrute.subbrute.check_open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "subbrute.subbrute.trace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "multiprocessing.Manager",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "multiprocessing.Manager.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "multiprocessing.Queue",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "multiprocessing.Queue.put",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "multiprocessing.Queue.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "subbrute.subbrute.verify_nameservers.end",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "multiprocessing.Process.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "builtins.raise",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "builtins.str.find",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.run",
+            "dest": "sys.stderr.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.enumerate",
+            "dest": "threading.Thread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.enumerate",
+            "dest": "threading.Thread.start",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.enumerate",
+            "dest": "threading.Thread.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.enumerate",
+            "dest": "sublist3r.DNSdumpster.get_csrftoken",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.enumerate",
+            "dest": "sublist3r.DNSdumpster.extract_domains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.DNSdumpster.enumerate",
+            "dest": "sublist3r.DNSdumpster.req",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "subbrute.subbrute.trace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "subbrute.subbrute.extract_subdomains.<lambda1>",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "builtins.sorted",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "builtins.str.find",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "builtins.str.lower",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "subbrute.subbrute.extract_subdomains",
+            "dest": "builtins.dict.keys",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.generate_query",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.GoogleEnum.generate_query",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.enumerate",
+            "dest": "json.loads",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.enumerate",
+            "dest": "sublist3r.Virustotal.extract_domains",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.enumerate",
+            "dest": "sublist3r.enumratorBase.print_",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "sublist3r.Virustotal.enumerate",
+            "dest": "sublist3r.Virustotal.send_req",
+            "values": {
+                "kind": "Call"
+            }
+        }
+    ]
+}

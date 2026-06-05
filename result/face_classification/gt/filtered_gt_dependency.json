@@ -1,0 +1,3028 @@
+{
+    "dependency": [
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.regularizers.l2",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.layers.Input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.layers.BatchNormalization",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.layers.Activation",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.layers.Conv2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.layers.SeparableConv2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.layers.MaxPooling2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.layers.GlobalAveragePooling2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.layers.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.tiny_XCEPTION",
+            "dest": "keras.models.Model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simpler_CNN",
+            "dest": "keras.models.Sequential",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simpler_CNN",
+            "dest": "keras.models.Sequential.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simpler_CNN",
+            "dest": "keras.layers.Convolution2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simpler_CNN",
+            "dest": "keras.layers.BatchNormalization",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simpler_CNN",
+            "dest": "keras.layers.Activation",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simpler_CNN",
+            "dest": "keras.layers.Flatten",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simpler_CNN",
+            "dest": "keras.layers.Dropout",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.grad_cam.compile_saliency_function",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "cv2.waitKey",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "cv2.namedWindow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.datasets.get_class_to_arg",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.inference.draw_bounding_box",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.inference.load_detection_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "cv2.VideoCapture",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "cv2.VideoCapture.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.grad_cam.register_gradient",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.inference.apply_offsets",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.grad_cam.modify_backprop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.inference.detect_faces",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "cv2.cvtColor",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.grad_cam.calculate_guided_gradient_CAM",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "cv2.imshow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "utils.grad_cam.compile_gradient_function",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "numpy.repeat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_gradcam_demo",
+            "dest": "builtins.ord",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.preprocessor._imread",
+            "dest": "scipy.misc.imread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.upload",
+            "dest": "logging.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.upload",
+            "dest": "web.emotion_gender_processor.process_image",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.upload",
+            "dest": "flask.send_file",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.upload",
+            "dest": "flask.abort",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.horizontal_flip",
+            "dest": "numpy.random.random",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.load_image",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.load_image",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simple_CNN",
+            "dest": "keras.models.Sequential",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simple_CNN",
+            "dest": "keras.models.Sequential.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simple_CNN",
+            "dest": "keras.layers.Convolution2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simple_CNN",
+            "dest": "keras.layers.BatchNormalization",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simple_CNN",
+            "dest": "keras.layers.Activation",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simple_CNN",
+            "dest": "keras.layers.AveragePooling2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simple_CNN",
+            "dest": "keras.layers.GlobalAveragePooling2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.simple_CNN",
+            "dest": "keras.layers.Dropout",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.contrast",
+            "dest": "utils.data_augmentation.ImageGenerator._gray_scale",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.contrast",
+            "dest": "numpy.random.random",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.contrast",
+            "dest": "numpy.ones_like",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.contrast",
+            "dest": "numpy.random.ones_like",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.contrast",
+            "dest": "numpy.clip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.register_gradient",
+            "dest": "tensorflow.python.framework.ops.RegisterGradient",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.index",
+            "dest": "flask.redirect",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function",
+            "dest": "utils.grad_cam.normalize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function",
+            "dest": "keras.models.Sequential",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function",
+            "dest": "keras.layers.core.Lambda",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function",
+            "dest": "keras.models.Sequential.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function",
+            "dest": "keras.backend.sum",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function",
+            "dest": "keras.backend.learning_phase",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function",
+            "dest": "keras.backend.function",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function",
+            "dest": "keras.backend.gradients",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.regularizers.l2",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.layers.Input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.layers.BatchNormalization",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.layers.Activation",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.layers.Conv2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.layers.GlobalAveragePooling2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.layers.SeparableConv2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.layers.MaxPooling2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.layers.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.mini_XCEPTION",
+            "dest": "keras.models.Model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.get_labels",
+            "dest": "builtins.Exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_guided_gradient_CAM_v2",
+            "dest": "utils.grad_cam.deprocess_image",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_guided_gradient_CAM_v2",
+            "dest": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_guided_gradient_CAM_v2",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_guided_gradient_CAM_v2",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_guided_gradient_CAM_v2",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_gradient_function.<lambda1>",
+            "dest": "utils.grad_cam.target_category_loss",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "utils.datasets.DataManager.get_data",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "models.cnn.mini_XCEPTION",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "utils.datasets.split_data",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "keras.callbacks.CSVLogger",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "keras.callbacks.EarlyStopping",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "keras.callbacks.ReduceLROnPlateau",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "keras.callbacks.ModelCheckpoint",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "keras.preprocessing.image.ImageDataGenerator",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_emotion_classifier",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.lighting",
+            "dest": "numpy.cov",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.lighting",
+            "dest": "numpy.clip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.lighting",
+            "dest": "numpy.random.randn",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.lighting",
+            "dest": "numpy.linalg.eigh",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.inference.draw_bounding_box",
+            "dest": "cv2.rectangle",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.preprocessor._imresize",
+            "dest": "scipy.misc.imresize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator._do_random_crop",
+            "dest": "numpy.random.uniform",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator._do_random_crop",
+            "dest": "numpy.array",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator._do_random_crop",
+            "dest": "numpy.rollaxis",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator._do_random_crop",
+            "dest": "numpy.stack",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator._do_random_crop",
+            "dest": "scipy.ndimage.interpolation.affine_transform",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "preprocessor._imresize",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "preprocessor._imresize",
+            "dest": "numpy.ceil",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "preprocessor._imresize",
+            "dest": "numpy.sqrt",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "preprocessor._imresize",
+            "dest": "numpy.empty",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "preprocessor._imresize",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "preprocessor._imresize",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic_v2",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic_v2",
+            "dest": "numpy.empty",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic_v2",
+            "dest": "numpy.sqrt",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic_v2",
+            "dest": "numpy.ceil",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic_v2",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic_v2",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.do_random_rotation",
+            "dest": "numpy.random.uniform",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.do_random_rotation",
+            "dest": "numpy.array",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.do_random_rotation",
+            "dest": "numpy.rollaxis",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.do_random_rotation",
+            "dest": "numpy.stack",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.do_random_rotation",
+            "dest": "scipy.ndimage.interpolation.affine_transform",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.preprocess_images",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "utils.inference.draw_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.waitKey",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.namedWindow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "keras.models.Model.predict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.VideoCapture",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.VideoCapture.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.VideoCapture.release",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "utils.datasets.get_labels",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "utils.inference.load_detection_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "utils.inference.apply_offsets",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "statistics.mode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "utils.inference.detect_faces",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.cvtColor",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.imshow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "cv2.destroyAllWindows",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "utils.inference.draw_bounding_box",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "numpy.argmax",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "<**PyList**>.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_gender_demo",
+            "dest": "builtins.ord",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "utils.grad_cam.compile_saliency_function",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "utils.grad_cam.register_gradient",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "utils.grad_cam.modify_backprop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "utils.grad_cam.load_image",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "pickle.load",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "utils.grad_cam.calculate_guided_gradient_CAM",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "utils.grad_cam.compile_gradient_function",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "keras.models.Model.predict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "numpy.argmax",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "cv2.imwrite",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "utils.inference.draw_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.waitKey",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.namedWindow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.VideoCapture",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.VideoCapture.release",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.VideoCapture.read",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "utils.datasets.get_labels",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "utils.inference.load_detection_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "utils.inference.apply_offsets",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "statistics.mode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "utils.inference.detect_faces",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.cvtColor",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.imshow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "cv2.destroyAllWindows",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "utils.inference.draw_bounding_box",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "numpy.max",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "numpy.argmax",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "numpy.asarray",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "numpy.tolist",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "numpy.astype",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "keras.models.Model.predict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "<**PyList**>.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "builtins.ord",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "video_emotion_color_demo",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.pretty_imshow",
+            "dest": "mpl_toolkits.axes_grid1.make_axes_locatable",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.pretty_imshow",
+            "dest": "matplotlib.pyplot.colorbar",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager.get_data",
+            "dest": "utils.datasets.DataManager._load_fer2013",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager.get_data",
+            "dest": "utils.datasets.DataManager._load_imdb",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager.get_data",
+            "dest": "utils.datasets.DataManager._load_KDEF",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_imdb",
+            "dest": "scipy.io.loadmat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_imdb",
+            "dest": "numpy.isnan",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_imdb",
+            "dest": "numpy.logical_not",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_imdb",
+            "dest": "numpy.logical_and",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_imdb",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_imdb",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_imdb",
+            "dest": "builtins.zip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.register_gradient._GuidedBackProp",
+            "dest": "tensorflow.cast",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.draw_mosaic",
+            "dest": "matplotlib.pyplot.subplots",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.draw_mosaic",
+            "dest": "matplotlib.pyplot.tight_layout",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.draw_mosaic",
+            "dest": "numpy.argmax",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.draw_mosaic",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.draw_mosaic",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.draw_mosaic",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.draw_mosaic",
+            "dest": "builtins.Exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.draw_mosaic",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.vertical_flip",
+            "dest": "numpy.random.random",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_saliency_function",
+            "dest": "keras.model.Model.get_layer",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_saliency_function",
+            "dest": "keras.backend.max",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_saliency_function",
+            "dest": "keras.backend.learning_phase",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_saliency_function",
+            "dest": "keras.backend.sum",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_saliency_function",
+            "dest": "keras.backend.gradients",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.compile_saliency_function",
+            "dest": "keras.backend.function",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.inference.load_detection_model",
+            "dest": "cv2.CascadeClassifier",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_fer2013",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_fer2013",
+            "dest": "pandas.read_csv",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_fer2013",
+            "dest": "pandas.get_dummies",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_fer2013",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_fer2013",
+            "dest": "numpy.asarray",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_fer2013",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_fer2013",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.split_imdb_data",
+            "dest": "random.shuffle",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.split_imdb_data",
+            "dest": "builtins.sorted",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.split_imdb_data",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.split_imdb_data",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "utils.preprocessor.to_categorical",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "random.shuffle",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "utils.preprocessor._imresize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "utils.data_augmentation.ImageGenerator.transform",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "utils.data_augmentation.ImageGenerator._wrap_in_dictionary",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "cv2.cvtColor",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "utils.data_augmentation.ImageGenerator._do_random_crop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "utils.data_augmentation.ImageGenerator.preprocess_images",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "utils.preprocessor._imread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "numpy.asarray",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "builtins.Exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.flow",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.target_category_loss",
+            "dest": "tensorflow.multiply",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.target_category_loss",
+            "dest": "keras.backend.one_hot",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.regularizers.l2",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.layers.Input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.layers.BatchNormalization",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.layers.Activation",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.layers.Conv2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.layers.GlobalAveragePooling2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.layers.SeparableConv2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.layers.MaxPooling2D",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.layers.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn.big_XCEPTION",
+            "dest": "keras.models.Model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "utils.visualizer.make_mosaic",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "utils.visualizer.pretty_imshow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "pickle.load",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "matplotlib.pyplot.gca",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "matplotlib.pyplot.show",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "matplotlib.pyplot.figure",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "matplotlib.pyplot.title",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "numpy.sqrt",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "numpy.ceil",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "numpy.rollaxis",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.inference.load_image",
+            "dest": "keras.preprocessing.image.load_img",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.inference.load_image",
+            "dest": "keras.preprocessing.image.img_to_array",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.inference.draw_text",
+            "dest": "cv2.putText",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.get_class_to_arg",
+            "dest": "builtins.Exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "numpy.mean",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "numpy.max",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "numpy.uint8",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "numpy.ones",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "numpy.maximum",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "numpy.min",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "numpy.minimum",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "numpy.float32",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "cv2.applyColorMap",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "dest": "builtins.enumerate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager.__init__",
+            "dest": "builtins.Exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "utils.datasets.split_imdb_data",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "utils.data_augmentation.ImageGenerator.flow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "utils.datasets.DataManager.get_data",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "models.cnn.mini_XCEPTION",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "keras.models.Model.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "keras.models.Model.summary",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "keras.models.Model.fit_generator",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "keras.callbacks.EarlyStopping",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "keras.callbacks.ReduceLROnPlateau",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "keras.callbacks.CSVLogger",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "keras.callbacks.ModelCheckpoint",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "train_gender_classifier",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.not_found",
+            "dest": "flask.make_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.not_found",
+            "dest": "flask.jsonify",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces",
+            "dest": "flask.Flask",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces",
+            "dest": "flask.Flask.run",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.modify_backprop",
+            "dest": "tensorflow.get_default_graph",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.modify_backprop",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.modify_backprop",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.preprocessor.to_categorical",
+            "dest": "numpy.asarray",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.preprocessor.to_categorical",
+            "dest": "numpy.zeros",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.preprocessor.to_categorical",
+            "dest": "numpy.arange",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.bad_request",
+            "dest": "flask.make_response",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.faces.bad_request",
+            "dest": "flask.jsonify",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_guided_gradient_CAM",
+            "dest": "utils.grad_cam.deprocess_image",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.calculate_guided_gradient_CAM",
+            "dest": "utils.grad_cam.calculate_gradient_weighted_CAM",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.saturation",
+            "dest": "utils.data_augmentation.ImageGenerator._gray_scale",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.saturation",
+            "dest": "numpy.random.random",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.saturation",
+            "dest": "numpy.clip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic",
+            "dest": "numpy.ma.masked_all",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic",
+            "dest": "numpy.floor",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.make_mosaic",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.normalize",
+            "dest": "keras.backend.sqrt",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.normalize",
+            "dest": "keras.backend.mean",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.normalize",
+            "dest": "keras.backend.square",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.reset_optimizer_weights",
+            "dest": "h5py.File",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.reset_optimizer_weights",
+            "dest": "h5py.File.close",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "utils.visualizer.pretty_imshow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "numpy.argmax",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "builtins.Exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "matplotlib.pyplot.title",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "matplotlib.pyplot.imshow",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "matplotlib.pyplot.gca",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.display_image",
+            "dest": "matplotlib.pyplot.figure",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.deprocess_image",
+            "dest": "numpy.ndim",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.deprocess_image",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.deprocess_image",
+            "dest": "numpy.clip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.grad_cam.deprocess_image",
+            "dest": "keras.backend.image_dim_ordering",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "utils.datasets.get_class_to_arg",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "os.path.basename",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "os.walk",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "cv2.imread",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "numpy.zeros",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "builtins.enumerate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "builtins.str.lower",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.DataManager._load_KDEF",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.inference.get_colors",
+            "dest": "matplotlib.pyplot.cm.hsv",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.inference.get_colors",
+            "dest": "numpy.linspace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.inference.get_colors",
+            "dest": "numpy.asarray",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn",
+            "dest": "models.cnn.simple_CNN",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "models.cnn",
+            "dest": "keras.models.Model.summary",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.transform",
+            "dest": "utils.data_augmentation.ImageGenerator.lighting",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.transform",
+            "dest": "random.shuffle",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.transform",
+            "dest": "utils.data_augmentation.ImageGenerator.vertical_flip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.transform",
+            "dest": "utils.data_augmentation.ImageGenerator.horizontal_flip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.visualizer.normal_imshow",
+            "dest": "matplotlib.pyplot.axis",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "utils.inference.draw_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "utils.datasets.get_labels",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "utils.inference.load_detection_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "utils.inference.apply_offsets",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "utils.inference.load_image",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "utils.inference.detect_faces",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "cv2.cvtColor",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "cv2.imwrite",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "utils.inference.draw_bounding_box",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "numpy.argmax",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_emotion_gender_demo",
+            "dest": "builtins.Exception",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "numpy.fromstring",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "numpy.argmax",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "utils.inference.draw_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "utils.datasets.get_labels",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "utils.inference.load_detection_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "logging.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "utils.inference.apply_offsets",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "os.mkdir",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "utils.inference.detect_faces",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "cv2.cvtColor",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "cv2.imdecode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "cv2.imwrite",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "web.emotion_gender_processor.process_image",
+            "dest": "utils.inference.draw_bounding_box",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.__init__",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.grad_cam.compile_saliency_function",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "keras.models.load_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.inference.draw_bounding_box",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.preprocessor.preprocess_input",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.datasets.get_labels",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.inference.load_detection_model",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.inference.apply_offsets",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.inference.load_image",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "cv2.resize",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.grad_cam.load_image",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.inference.detect_faces",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.grad_cam.register_gradient",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.grad_cam.modify_backprop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.grad_cam.calculate_guided_gradient_CAM",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "cv2.cvtColor",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "cv2.imwrite",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "utils.grad_cam.compile_gradient_function",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "numpy.squeeze",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "numpy.argmax",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "numpy.expand_dims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "numpy.expanddims",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "image_gradcam_demo",
+            "dest": "numpy.repeat",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.split_data",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.datasets.split_data",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.brightness",
+            "dest": "numpy.random.random",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "utils.data_augmentation.ImageGenerator.brightness",
+            "dest": "numpy.clip",
+            "values": {
+                "kind": "Call"
+            }
+        }
+    ]
+}

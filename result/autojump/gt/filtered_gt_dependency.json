@@ -1,0 +1,3406 @@
+{
+    "dependency": [
+        {
+            "src": "autojump_argparse._AttributeHolder._get_kwargs",
+            "dest": "autojump_argparse.sorted",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AttributeHolder._get_kwargs",
+            "dest": "builtins.dict.items",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load.<lambda3>",
+            "dest": "builtins.float",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._MutuallyExclusiveGroup._add_action",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._MutuallyExclusiveGroup._add_action",
+            "dest": "autojump_argparse._ActionsContainer._add_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._MutuallyExclusiveGroup._add_action",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._MutuallyExclusiveGroup._add_action",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy.<lambda3>",
+            "dest": "difflib.SequenceMatcher",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy.<lambda3>",
+            "dest": "autojump_match.match_fuzzy.<lambda1>",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_mutually_exclusive_group",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.is_linux",
+            "dest": "platform.system",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ArgumentGroup._remove_action",
+            "dest": "autojump_argparse._ActionsContainer._remove_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ArgumentGroup._remove_action",
+            "dest": "<**PyList**>.remove",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ArgumentGroup._remove_action",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._dedent",
+            "dest": "builtins.assert",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.get_pwd",
+            "dest": "os.getcwd",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.get_pwd",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._HelpAction.__call__",
+            "dest": "autojump_argparse.ArgumentParser.print_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._HelpAction.__call__",
+            "dest": "autojump_argparse.ArgumentParser.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_version",
+            "dest": "warnings.warn",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_version",
+            "dest": "autojump_argparse.ArgumentParser._get_formatter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_version",
+            "dest": "autojump_argparse.HelpFormatter.add_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_version",
+            "dest": "autojump_argparse.HelpFormatter.format_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data",
+            "dest": "collections.namedtuple",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._join_parts",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._registry_get",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_nargs_pattern",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_nargs_pattern",
+            "dest": "builtins.str.replace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AttributeHolder.__repr__",
+            "dest": "autojump_argparse._AttributeHolder._get_kwargs",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AttributeHolder.__repr__",
+            "dest": "autojump_argparse._AttributeHolder._get_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AttributeHolder.__repr__",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AttributeHolder.__repr__",
+            "dest": "builtins.repr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AttributeHolder.__repr__",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._HelpAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.take_action",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.take_action",
+            "dest": "autojump_argparse._get_action_name",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.take_action",
+            "dest": "autojump_argparse.ArgumentParser._get_values",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.take_action",
+            "dest": "<**PySet**>.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.take_action",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "autojump_argparse.HelpFormatter._format_usage.get_lines",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "<**PyList**>.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage",
+            "dest": "re.findall",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_optional_kwargs",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_optional_kwargs",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_optional_kwargs",
+            "dest": "builtins.str.lstrip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_optional_kwargs",
+            "dest": "builtins.str.replace",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_optional_kwargs",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_optional_kwargs",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_optional_kwargs",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._callable",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._read_args_from_files",
+            "dest": "autojump_argparse.ArgumentParser._read_args_from_files",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._read_args_from_files",
+            "dest": "autojump_argparse.ArgumentParser.convert_arg_line_to_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._read_args_from_files",
+            "dest": "autojump_argparse.ArgumentParser.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._read_args_from_files",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._read_args_from_files",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._read_args_from_files",
+            "dest": "sys.exc_info",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.print_usage",
+            "dest": "autojump_argparse.ArgumentParser._print_message",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.print_usage",
+            "dest": "autojump_argparse.ArgumentParser.format_usage",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action_invocation",
+            "dest": "autojump_argparse.HelpFormatter._format_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action_invocation",
+            "dest": "autojump_argparse.HelpFormatter._metavar_formatter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action_invocation",
+            "dest": "autojump_argparse.HelpFormatter._metavar_formatter.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action_invocation",
+            "dest": "<**PyList**>.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action_invocation",
+            "dest": "builtins.str.upper",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action_invocation",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._add_item",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._handle_conflict_resolve",
+            "dest": "autojump_argparse._ActionsContainer._remove_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._handle_conflict_resolve",
+            "dest": "<**PyList**>.remove",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._handle_conflict_resolve",
+            "dest": "builtins.dict.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.set_defaults",
+            "dest": "builtins.dict.update",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.consume_optional",
+            "dest": "autojump_argparse.ArgumentParser._match_argument",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.consume_optional",
+            "dest": "autojump_argparse.ArgumentParser._parse_known_args.take_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.consume_optional",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.consume_optional",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.sanitize.<lambda1>",
+            "dest": "autojump_utils.unico",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.is_autojump_sourced",
+            "dest": "os.getenv",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_anywhere.<lambda1>",
+            "dest": "re.search",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "autojump_argparse.HelpFormatter._format_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "sets.Set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "autojump_argparse.sorted",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "builtins.enumerate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "builtins.dict.index",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "<**PyList**>.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "<**PyList**>.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "<**PySet**>.add",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "builtins.str.upper",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_actions_usage",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._CountAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_value",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_value",
+            "dest": "autojump_argparse._ActionsContainer._registry_get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_value",
+            "dest": "autojump_argparse._callable",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_value",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_value",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_value",
+            "dest": "builtins.repr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_value",
+            "dest": "sys.exc_info",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_handler",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_handler",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_handler",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_kwargs",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._print_message",
+            "dest": "sys.stdout.write",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.print_help",
+            "dest": "autojump_argparse.ArgumentParser.format_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.print_help",
+            "dest": "autojump_argparse.ArgumentParser._print_message",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_usage",
+            "dest": "autojump_argparse.HelpFormatter._add_item",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentError.__init__",
+            "dest": "autojump_argparse._get_action_name",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.format_help",
+            "dest": "autojump_argparse.HelpFormatter._Section.format_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.format_help",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.format_help",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_optional",
+            "dest": "autojump_argparse.ArgumentParser._get_option_tuples",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_optional",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_optional",
+            "dest": "autojump_argparse.ArgumentParser.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_optional",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_optional",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_optional",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy.<lambda4>",
+            "dest": "autojump_match.match_fuzzy.<lambda3>",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy.<lambda4>",
+            "dest": "autojump_match.match_fuzzy.<lambda2>",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.add_parser",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.add_parser",
+            "dest": "builtins.dict.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.add_parser",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load.<lambda2>",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._handle_conflict_error",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._handle_conflict_error",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.sorted",
+            "dest": "autojump_argparse.sorted",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.sorted",
+            "dest": "<**PyList**>.reverse",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_anywhere",
+            "dest": "itertools.ifilter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_anywhere",
+            "dest": "itertools.imap",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_anywhere",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ArgumentGroup._add_action",
+            "dest": "autojump_argparse._ActionsContainer._add_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ArgumentGroup._add_action",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ArgumentGroup._add_action",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_text",
+            "dest": "autojump_argparse.HelpFormatter._fill_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_text",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage.get_lines",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage.get_lines",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_usage.get_lines",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.is_windows",
+            "dest": "platform.system",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.last",
+            "dest": "autojump_utils.is_python3",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.last",
+            "dest": "builtins.iter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.last",
+            "dest": "<**PyIter**>.next",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.unico",
+            "dest": "autojump_utils.is_python2",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.unico",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.unico",
+            "dest": "builtins.unicode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument_group",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._expand_help",
+            "dest": "autojump_argparse.HelpFormatter._get_help_string",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._expand_help",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._expand_help",
+            "dest": "builtins.vars",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._expand_help",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._expand_help",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._expand_help",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._expand_help",
+            "dest": "<**PyList**>.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._expand_help",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.error",
+            "dest": "autojump_argparse.ArgumentParser.print_usage",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.error",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.error",
+            "dest": "autojump_argparse.ArgumentParser.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy",
+            "dest": "autojump_utils.last",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy",
+            "dest": "itertools.ifilter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._VersionAction.__call__",
+            "dest": "autojump_argparse.ArgumentParser._get_formatter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._VersionAction.__call__",
+            "dest": "autojump_argparse.ArgumentParser.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._VersionAction.__call__",
+            "dest": "autojump_argparse.HelpFormatter.add_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._VersionAction.__call__",
+            "dest": "autojump_argparse.HelpFormatter.format_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.print_version",
+            "dest": "warnings.warn",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.print_version",
+            "dest": "autojump_argparse.ArgumentParser._print_message",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.print_version",
+            "dest": "autojump_argparse.ArgumentParser.format_version",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_arguments_partial",
+            "dest": "autojump_argparse.ArgumentParser._get_nargs_pattern",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_arguments_partial",
+            "dest": "re.match",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_arguments_partial",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_arguments_partial",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_arguments_partial",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_arguments_partial",
+            "dest": "builtins.dict.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_consecutive.<lambda1>",
+            "dest": "re.search",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendConstAction.__call__",
+            "dest": "autojump_argparse._ensure_value",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendConstAction.__call__",
+            "dest": "copy.copy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendConstAction.__call__",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendConstAction.__call__",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._metavar_formatter",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._metavar_formatter",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.FileType.__repr__",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.FileType.__repr__",
+            "dest": "builtins.repr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.FileType.__repr__",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._StoreAction.__call__",
+            "dest": "builtins.__call__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._StoreAction.__call__",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_arguments",
+            "dest": "autojump_argparse.HelpFormatter.add_argument",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.Action._get_kwargs",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_args",
+            "dest": "autojump_argparse.HelpFormatter._metavar_formatter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_args",
+            "dest": "autojump_argparse.HelpFormatter._metavar_formatter.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_args",
+            "dest": "builtins.range",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_args",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_positional_kwargs",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_positional_kwargs",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._get_positional_kwargs",
+            "dest": "builtins.TypeError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.RawDescriptionHelpFormatter._fill_text",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.RawDescriptionHelpFormatter._fill_text",
+            "dest": "builtins.str.splitlines",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_args",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_args",
+            "dest": "autojump_argparse.ArgumentParser.parse_known_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_args",
+            "dest": "autojump_argparse.ArgumentParser.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.__init__",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.__init__",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._StoreConstAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.sanitize",
+            "dest": "itertools.imap",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.sanitize",
+            "dest": "builtins.list",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._StoreAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._StoreAction.__init__",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._check_value",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._check_value",
+            "dest": "builtins.map",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._check_value",
+            "dest": "builtins.repr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.move_file",
+            "dest": "shutil.move",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.move_file",
+            "dest": "autojump_utils.is_windows",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.move_file",
+            "dest": "os.remove",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.move_file",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_action",
+            "dest": "autojump_argparse._ActionsContainer._check_conflict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_action",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_action",
+            "dest": "re.match",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.start_section",
+            "dest": "autojump_argparse.HelpFormatter._indent",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.start_section",
+            "dest": "autojump_argparse.HelpFormatter._add_item",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_help",
+            "dest": "autojump_argparse.ArgumentParser._get_formatter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_help",
+            "dest": "autojump_argparse.HelpFormatter.add_usage",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_help",
+            "dest": "autojump_argparse.HelpFormatter.add_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_help",
+            "dest": "autojump_argparse.HelpFormatter.start_section",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_help",
+            "dest": "autojump_argparse.HelpFormatter.add_arguments",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_help",
+            "dest": "autojump_argparse.HelpFormatter.end_section",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ensure_value",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ensure_value",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_container_actions",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_container_actions",
+            "dest": "autojump_argparse._ActionsContainer.add_mutually_exclusive_group",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_container_actions",
+            "dest": "autojump_argparse._ActionsContainer.add_argument_group",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_container_actions",
+            "dest": "autojump_argparse._MutuallyExclusiveGroup._add_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_container_actions",
+            "dest": "autojump_argparse._ArgumentGroup._add_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_container_actions",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._add_container_actions",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._StoreFalseAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._metavar_formatter.format",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.print_entry",
+            "dest": "autojump_utils.print_local",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.print_entry",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._VersionAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction._ChoicesPseudoAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendConstAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._StoreConstAction.__call__",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "sets.Set",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser._parse_optional",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser._get_positional_actions",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser._read_args_from_files",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser._parse_known_args.consume_positionals",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser._parse_known_args.consume_optional",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "autojump_argparse._get_action_name",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "builtins.enumerate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "builtins.iter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "builtins.max",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "builtins.min",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "builtins.dict.setdefault",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "<**PyList**>.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match",
+            "dest": "autojump_utils.is_python3",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.get_default",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.has_uppercase",
+            "dest": "unicodedata.category",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.has_uppercase",
+            "dest": "autojump_utils.is_python3",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.has_uppercase",
+            "dest": "<**PyChar**>.isupper",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.has_uppercase",
+            "dest": "builtins.unicode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.has_uppercase",
+            "dest": "builtins.any",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.Namespace.__eq__",
+            "dest": "builtins.vars",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.entriefy",
+            "dest": "itertools.imap",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.entriefy",
+            "dest": "autojump_utils.is_python3",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.entriefy",
+            "dest": "builtins.map",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.register",
+            "dest": "builtins.dict.setdefault",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentError.__str__",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.migrate_osx_xdg_data",
+            "dest": "shutil.rmtree",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.migrate_osx_xdg_data",
+            "dest": "os.path.expanduser",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.migrate_osx_xdg_data",
+            "dest": "autojump_utils.is_osx",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.migrate_osx_xdg_data",
+            "dest": "autojump_utils.move_file",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.migrate_osx_xdg_data",
+            "dest": "os.listdir",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.migrate_osx_xdg_data",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.migrate_osx_xdg_data",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.migrate_osx_xdg_data",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.exit",
+            "dest": "autojump_argparse.ArgumentParser._print_message",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.exit",
+            "dest": "sys.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.take",
+            "dest": "itertools.islice",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._split_lines",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._split_lines",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._split_lines",
+            "dest": "textwrap.wrap",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.end_section",
+            "dest": "autojump_argparse.HelpFormatter._dedent",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendAction.__init__",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.Action.__call__",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.Action.__call__",
+            "dest": "builtins.NotImplementedError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.encode_local",
+            "dest": "sys.getfilesystemencoding",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.encode_local",
+            "dest": "autojump_utils.is_python3",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.encode_local",
+            "dest": "builtins.str.encode",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._iter_indented_subactions",
+            "dest": "autojump_argparse.HelpFormatter._indent",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._iter_indented_subactions",
+            "dest": "autojump_argparse.HelpFormatter._dedent",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._iter_indented_subactions",
+            "dest": "autojump_argparse._SubParsersAction.get_subactions",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._remove_action",
+            "dest": "<**PyList**>.remove",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_consecutive",
+            "dest": "itertools.ifilter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_consecutive",
+            "dest": "itertools.imap",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_consecutive",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser._get_value",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser._parse_known_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "autojump_argparse.ArgumentParser.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "builtins.hasattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "builtins.delattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "builtins.str",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "builtins.dict.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.parse_known_args",
+            "dest": "sys.exc_info",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_values",
+            "dest": "autojump_argparse.ArgumentParser._check_value",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_values",
+            "dest": "autojump_argparse.ArgumentParser._get_value",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_values",
+            "dest": "builtins.isinstance",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_values",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._MutuallyExclusiveGroup._remove_action",
+            "dest": "autojump_argparse._ActionsContainer._remove_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._MutuallyExclusiveGroup._remove_action",
+            "dest": "<**PyList**>.remove",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.is_osx",
+            "dest": "platform.system",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.print_local",
+            "dest": "autojump_utils.encode_local",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.print_local",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.print_local",
+            "dest": "builtins.any",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._get_action_name",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.Namespace.__init__",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_text",
+            "dest": "autojump_argparse.HelpFormatter._add_item",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "autojump_argparse.ArgumentParser._get_formatter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "autojump_argparse.ArgumentParser._get_positional_actions",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "autojump_argparse._ActionsContainer.add_argument_group",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "autojump_argparse._ArgumentGroup._add_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "autojump_argparse.ArgumentParser.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "autojump_argparse._ActionsContainer._pop_action_class",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "autojump_argparse.HelpFormatter.add_usage",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "autojump_argparse.HelpFormatter.format_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "builtins.dict.setdefault",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "builtins.dict.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.add_subparsers",
+            "dest": "builtins.type",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._Section.format_help",
+            "dest": "autojump_argparse.HelpFormatter._indent",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._Section.format_help",
+            "dest": "autojump_argparse.HelpFormatter._dedent",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._Section.format_help",
+            "dest": "autojump_argparse.HelpFormatter._join_parts",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._Section.format_help",
+            "dest": "autojump_argparse.HelpFormatter._Section.format_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._Section.format_help",
+            "dest": "autojump_argparse.HelpFormatter._format_text",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._Section.format_help",
+            "dest": "autojump_argparse.HelpFormatter._format_usage",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._Section.format_help",
+            "dest": "autojump_argparse.HelpFormatter._format_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_argument",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_argument",
+            "dest": "autojump_argparse.ArgumentParser._get_nargs_pattern",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_argument",
+            "dest": "re.match",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_argument",
+            "dest": "builtins.dict.get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._match_argument",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.print_tab_menu",
+            "dest": "autojump_utils.print_local",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.print_tab_menu",
+            "dest": "builtins.enumerate",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.create_dir",
+            "dest": "os.makedirs",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._check_conflict",
+            "dest": "autojump_argparse._ActionsContainer._get_handler",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._check_conflict",
+            "dest": "autojump_argparse._ActionsContainer._handle_conflict_error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._check_conflict",
+            "dest": "autojump_argparse._ActionsContainer._handle_conflict_resolve",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._check_conflict",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.consume_positionals",
+            "dest": "autojump_argparse.ArgumentParser._match_arguments_partial",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.consume_positionals",
+            "dest": "autojump_argparse.ArgumentParser._parse_known_args.take_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.consume_positionals",
+            "dest": "builtins.zip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._parse_known_args.consume_positionals",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load.<lambda1>",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load.<lambda1>",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._pop_action_class",
+            "dest": "autojump_argparse._ActionsContainer._registry_get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer._pop_action_class",
+            "dest": "builtins.dict.pop",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendAction.__call__",
+            "dest": "autojump_argparse._ensure_value",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendAction.__call__",
+            "dest": "copy.copy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendAction.__call__",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendAction.__call__",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._AppendAction.__call__",
+            "dest": "builtins.NotImplementedError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_argument",
+            "dest": "autojump_argparse.HelpFormatter._iter_indented_subactions",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_argument",
+            "dest": "autojump_argparse.HelpFormatter._add_item",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_argument",
+            "dest": "autojump_argparse.HelpFormatter._format_action_invocation",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_argument",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_argument",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter.add_argument",
+            "dest": "builtins.max",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument",
+            "dest": "autojump_argparse._ActionsContainer._get_optional_kwargs",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument",
+            "dest": "autojump_argparse._callable",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument",
+            "dest": "autojump_argparse._ActionsContainer._add_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument",
+            "dest": "autojump_argparse._ActionsContainer._registry_get",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument",
+            "dest": "autojump_argparse._ActionsContainer._pop_action_class",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument",
+            "dest": "autojump_argparse._ActionsContainer._get_positional_kwargs",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.add_argument",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy.<lambda2>",
+            "dest": "difflib.SequenceMatcher",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy.<lambda2>",
+            "dest": "autojump_match.match_fuzzy.<lambda1>",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._MutuallyExclusiveGroup.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.__init__",
+            "dest": "autojump_argparse._ActionsContainer.register",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.__init__",
+            "dest": "autojump_argparse._ActionsContainer._get_handler",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.__init__",
+            "dest": "re.compile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ActionsContainer.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "autojump_argparse.HelpFormatter._iter_indented_subactions",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "autojump_argparse.HelpFormatter._join_parts",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "autojump_argparse.HelpFormatter._format_action",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "autojump_argparse.HelpFormatter._split_lines",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "autojump_argparse.HelpFormatter._format_action_invocation",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "autojump_argparse.HelpFormatter._expand_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "builtins.min",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "builtins.len",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._format_action",
+            "dest": "builtins.str.endswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "autojump_argparse._ActionsContainer.register",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "autojump_argparse._ActionsContainer.add_argument",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "autojump_argparse._ActionsContainer.add_argument_group",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "os.path.basename",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "warnings.warn",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "autojump_argparse._ActionsContainer._add_container_actions",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "builtins.dict.update",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.second",
+            "dest": "autojump_utils.is_python3",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.second",
+            "dest": "autojump_utils.is_python2",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.second",
+            "dest": "builtins.next",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.second",
+            "dest": "builtins.iter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.FileType.__call__",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.FileType.__call__",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.FileType.__call__",
+            "dest": "builtins.ValueError",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._fill_text",
+            "dest": "builtins.str.strip",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._fill_text",
+            "dest": "re.sub",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.HelpFormatter._fill_text",
+            "dest": "textwrap.fill",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__call__",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__call__",
+            "dest": "autojump_argparse.ArgumentParser.parse_known_args",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__call__",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__call__",
+            "dest": "builtins.vars",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__call__",
+            "dest": "builtins.getattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__call__",
+            "dest": "<**PyList**>.extend",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__call__",
+            "dest": "builtins.str.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__call__",
+            "dest": "builtins.dict.setdefault",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.RawTextHelpFormatter._split_lines",
+            "dest": "builtins.str.splitlines",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_usage",
+            "dest": "autojump_argparse.ArgumentParser._get_formatter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_usage",
+            "dest": "autojump_argparse.HelpFormatter.add_usage",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser.format_usage",
+            "dest": "autojump_argparse.HelpFormatter.format_help",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.get_tab_entry_info",
+            "dest": "re.search",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.get_tab_entry_info",
+            "dest": "builtins.int",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ArgumentGroup.__init__",
+            "dest": "builtins.dict.setdefault",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._ArgumentGroup.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.first",
+            "dest": "autojump_utils.is_python3",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.first",
+            "dest": "builtins.iter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.first",
+            "dest": "<**PyIter**>.__next__",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._SubParsersAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._StoreTrueAction.__init__",
+            "dest": "builtins.super",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_option_tuples",
+            "dest": "gettext.gettext",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_option_tuples",
+            "dest": "autojump_argparse.ArgumentParser.error",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_option_tuples",
+            "dest": "builtins.str.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_option_tuples",
+            "dest": "builtins.str.startswith",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse.ArgumentParser._get_option_tuples",
+            "dest": "<**PyList**>.append",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "codecs.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "autojump_data.migrate_osx_xdg_data",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "os.path.expanduser",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "itertools.ifilter",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "autojump_utils.is_osx",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "itertools.imap",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "autojump_data.load_backup",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "os.path.join",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load",
+            "dest": "builtins.dict",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._CountAction.__call__",
+            "dest": "autojump_argparse._ensure_value",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_argparse._CountAction.__call__",
+            "dest": "builtins.setattr",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "codecs.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "tempfile.NamedTemporaryFile",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "time.time",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "autojump_utils.create_dir",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "os.fsync",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "autojump_utils.unico",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "os.path.getmtime",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "autojump_utils.move_file",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "shutil.copy",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "os.path.dirname",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "sys.exit",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "builtins.open",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "builtins.print",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.save",
+            "dest": "builtins.dict.items",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.surround_quotes",
+            "dest": "autojump_utils.in_bash",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.surround_quotes",
+            "dest": "builtins.str.format",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy.<lambda1>",
+            "dest": "os.path.split",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_match.match_fuzzy.<lambda1>",
+            "dest": "autojump_utils.last",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load_backup",
+            "dest": "autojump_data.load",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load_backup",
+            "dest": "autojump_utils.move_file",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_data.load_backup",
+            "dest": "os.path.exists",
+            "values": {
+                "kind": "Call"
+            }
+        },
+        {
+            "src": "autojump_utils.in_bash",
+            "dest": "os.getenv",
+            "values": {
+                "kind": "Call"
+            }
+        }
+    ]
+}
